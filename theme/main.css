@@ -1,0 +1,233 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	position: relative;
+	padding:10px;
+	background: #444;
+}
+
+#container {
+	position: relative;
+	width: 580px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #FFF;
+}
+
+#header {
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background: #393;
+}
+
+#header h1 {
+	position: relative;
+	margin: auto;
+	color: #FFF;
+	text-align: center;
+	line-height: 100px;
+	font-size: 100px;
+	font-variant: small-caps;
+}
+
+#functions {
+  float: right;
+  width: 100px;
+  margin-left: -100px;
+  margin-bottom: 10px;
+}
+
+#content {
+  float: right;
+  width: 480px;
+  padding-right: 100px;
+  margin-bottom: 10px;
+}
+
+#content h2{
+	margin-top:10px;
+}
+
+#content h3{
+	margin-top:10px;
+}
+
+.messageAddBlock {
+	margin-top:10px;
+	margin-right:20px;
+}
+
+.responseAddBlock {
+	margin-top:10px;
+	margin-right:6px;
+}
+
+#footer {
+	clear: both;
+	position: relative;
+	height: 40px;
+	background-color: #393;
+}
+
+#footer p {
+	text-align: center;
+    font-size: 0.8em;
+	line-height: 40px;
+	color: #FFF;
+	font-weight: bolder;
+}
+
+.block {
+	position: relative;
+	width: 558px;
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px dotted #CCC;
+}
+
+.block h2 {
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.block p, .messageBlock p {
+	margin: 5px;
+	font-size: 14px;
+}
+
+.block .errorMessages {
+	font-size: 8px;
+	color: #F00;
+}
+
+.block .blockFunctions {
+	margin: 5px;
+	text-align: right;
+	font-size: 0.8em;
+}
+
+.messageBlock, #edit {
+	position: relative;
+	width: 448px;
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px dotted #CCC;
+}
+
+.messageBlock h2, #edit h2 {
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 5px;
+	background-color: #393;
+	font-size: 18px;
+	color: #FFF;
+}
+
+.messageBlockFunctions, .editBlockFunctions {
+	text-align: right;
+	font-size: 12px;
+	font-style:normal;
+}
+
+.userBlock {
+	width: 448px;
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px dotted #CCC;
+}
+
+.userAndMessage {
+	background-color: #393;
+	padding: 4px;
+}
+
+.userAndMessage .message {
+	margin-left: 2px;
+	width: 370px;
+	word-wrap: break-word;
+}
+
+.userAndResponse {
+	margin-top: 2px;
+	margin-left: 60px;
+	background-color: #80D580;
+	padding: 4px;
+}
+
+.userAndResponse .response {
+	margin-left: 2px;
+	margin-top: -4px;
+	word-wrap: break-word;
+	font-size:12px;
+}
+
+.userBlock .nameBlock1 {
+	height: 70px;
+}
+
+.userBlock .nameBlock2 {
+	background-color: #393;
+	padding: 4px;
+	border: 4px outset #393;
+}
+
+.userBlock .nameBlock2 h2 {
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.head {
+	margin-top: -65px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	background-color: white;
+	border: 2px outset #FFF;
+	-webkit-border-radius: 2px;
+}
+
+.head img{
+	display: inline-block;
+	border: 0;
+	height: 100px;
+	width: 100px;
+}
+
+#edit p {
+	margin: 5px auto;
+}
+
+#functions ul {
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+	list-style: none;
+}
+
+#functions ul li {
+	padding: 3px;
+}
+
+a {
+	text-decoration: none;
+	color: #0342C1;
+}
+
+#login-form p {
+    clear: both;
+}
+
+#login-form label {
+    margin-right: 2px;
+}
+
+#login-form input.text {
+    width: 40px;
+    font-size: 9pt;
+    line-height: 12pt;
+}
